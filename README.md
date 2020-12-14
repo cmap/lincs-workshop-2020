@@ -1,4 +1,4 @@
-# Connectivty Map/LINCS Workshop
+# Connectivity Map/LINCS Workshop
 
 The [Connectivity Map (CMap)](https://clue.io) project at the [Broat Institute](http://www.broadinstitute.org) is focused on generating a public resource of high-dimensional perturbational signatures of cell state that can be leveraged to accelerate functional hypothesis generation. This project is part of a larger NIH-funded effort called the Library of Integrated Network-Based Cellular Signatures [(LINCS)](https://lincsproject.org/).
 
@@ -23,7 +23,7 @@ In addition to BigQuery, CMap data are provided in the GCTx file format. GCTx fi
 
 `notebooks/cell_fitness`
 
-Similar to gene expression, there are ongoing efforts at the Broad Institute and other LINCS centers to generate perturbational signatures of cell viability. The notebooks in this section contain exploratory analyses of cell viability data generated using the [PRISM](https://www.theprismlab.org/) assay.
+Similar to gene expression, there are ongoing efforts at the Broad Institute and other LINCS centers to generate perturbational signatures of cell fitness. The notebooks in this section contain exploratory analyses of perturbational cell viability data generated using the [PRISM](https://www.theprismlab.org/) assay.
 
 # References
 
