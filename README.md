@@ -1,6 +1,6 @@
 # Connectivity Map/LINCS Workshop
 
-The [Connectivity Map (CMap)](https://clue.io) project at the [Broat Institute](http://www.broadinstitute.org) is focused on generating a public resource of high-dimensional perturbational signatures of cell state that can be leveraged to accelerate functional hypothesis generation. This project is part of a larger NIH-funded effort called the Library of Integrated Network-Based Cellular Signatures [(LINCS)](https://lincsproject.org/).
+The [Connectivity Map (CMap)](https://clue.io) project at the [Broad Institute](http://www.broadinstitute.org) is focused on generating a public resource of high-dimensional perturbational signatures of cell state that can be leveraged to accelerate functional hypothesis generation. This project is part of a larger NIH-funded effort called the Library of Integrated Network-Based Cellular Signatures [(LINCS)](https://lincsproject.org/).
 
 This repository contains notebooks from used in the Connectivity Map/LINCS 2020 workshop, hosted virtually on December 17 & 18, 2020. The notebooks will be reviewed during the workshop, but they are also posted here for reference. This repository will serve as a public resource of code demonstrating how to interact with and access CMap data stored in [Google BigQuery](https://cloud.google.com/bigquery), as well as other common formats such as [GCTx](https://clue.io/connectopedia/gctx_format).
 
