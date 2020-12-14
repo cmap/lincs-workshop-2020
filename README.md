@@ -1,8 +1,25 @@
 # Connectivty Map/LINCS Workshop
 
-This repository contains notebooks from used in the Connectivity Map/LINCS 2020 workshop, hosted virtually on December 17 & 18, 2020. The notebooks will be reviewed during the workshop, but they are also posted here for reference. This repository will serve as a public resource of code demonstrating how to interact with and access CMap data stored in Google BigQuery, as well as other common formats such as [GCTx](https://clue.io/connectopedia/gctx_format).
+The [Connectivity Map (CMap)](https://clue.io) project at the [Broat Institute](http://www.broadinstitute.org) is focused on generating a public resource of high-dimensional perturbational signatures of cell state that can be leveraged to accelerate functional hypothesis generation. This project is part of a larger NIH-funded effort called the Library of Integrated Network-Based Cellular Signatures [(LINCS)](https://lincsproject.org/).
 
-The [Connectivity Map (CMap)](https://clue.io) project at the [Broat Institute](http://www.broadinstitute.org) is focused on generating a public resource of perturbational gene expression profiles that can be leveraged to accelerate functional hypothesis generation. This project is part of a larger NIH-funded effort called the Library of Integrated Network-Based Cellular Signatures [(LINCS)](https://lincsproject.org/).
+This repository contains notebooks from used in the Connectivity Map/LINCS 2020 workshop, hosted virtually on December 17 & 18, 2020. The notebooks will be reviewed during the workshop, but they are also posted here for reference. This repository will serve as a public resource of code demonstrating how to interact with and access CMap data stored in [Google BigQuery](https://cloud.google.com/bigquery), as well as other common formats such as [GCTx](https://clue.io/connectopedia/gctx_format).
+
+
+# Content
+
+The content in this repository is organized into a few sections, listed below.
+
+## Data Access
+
+CMap has generated a dataset of over 3M gene expression profiles. These data are stored in Google BigQuery in ortder to faciliate access to arbitrary subsets of the dataset. The notebooks in this section illustrate how to query and access these data using an API, and the [CMap BQ Toolkit](https://cmapbq.readthedocs.io/en/latest/setup-guide.html), written in python. 
+
+## Analyzing Gene Expression Data
+
+In addition to BigQuery, CMap data are provided in the GCTx file format. GCTx files are annotated data matrices that support access to arbitrary subsets of the data matrix. The notebooks in this section illustrate how to parse GCTx files and perform common analyses on CMap data and metadata using the packages [cmapR](https://bioconductor.org/packages/release/bioc/html/cmapR.html) and [cmapPy](https://pypi.org/project/cmapPy/).
+
+## Analyzing Cell Fitness Data
+
+
 
 # References
 
