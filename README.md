@@ -15,14 +15,20 @@ CMap has generated a dataset of over 3M gene expression profiles. These data are
 
 ## Analyzing Gene Expression Data
 
+`notebooks/gene_expression`
+
 In addition to BigQuery, CMap data are provided in the GCTx file format. GCTx files are annotated data matrices that support access to arbitrary subsets of the data matrix. The notebooks in this section illustrate how to parse GCTx files and perform common analyses on CMap data and metadata using the packages [cmapR](https://bioconductor.org/packages/release/bioc/html/cmapR.html) and [cmapPy](https://pypi.org/project/cmapPy/).
 
 ## Analyzing Cell Fitness Data
 
+`notebooks/cell_fitness`
 
+Similar to gene expression, there are ongoing efforts at the Broad Institute and other LINCS centers to generate perturbational signatures of cell viability. The notebooks in this section contain exploratory analyses of cell viability data generated using the [PRISM](https://www.theprismlab.org/) assay.
 
 # References
 
+* Enache, Oana M., David L. Lahr, Ted E. Natoli, Lev Litichevskiy, David Wadden, Corey Flynn, Joshua Gould, Jacob K. Asiedu, Rajiv Narayan, and Aravind Subramanian. 2019. ["The GCTx Format and cmap{Py, R, M, J} Packages: Resources for Optimized Storage and Integrated Traversal of Annotated Dense Matrices."](http://dx.doi.org/10.1093/bioinformatics/bty784) Bioinformatics  35 (8): 1427–29.
+
 * Subramanian, Aravind, Rajiv Narayan, Steven M. Corsello, David D. Peck, Ted E. Natoli, Xiaodong Lu, Joshua Gould, et al. 2017. ["A Next Generation Connectivity Map: L1000 Platform and the First 1,000,000 Profiles."](https://www.ncbi.nlm.nih.gov/pubmed/29195078) Cell 171 (6): 1437–52.e17.
 
-* Enache, Oana M., David L. Lahr, Ted E. Natoli, Lev Litichevskiy, David Wadden, Corey Flynn, Joshua Gould, Jacob K. Asiedu, Rajiv Narayan, and Aravind Subramanian. 2019. ["The GCTx Format and cmap{Py, R, M, J} Packages: Resources for Optimized Storage and Integrated Traversal of Annotated Dense Matrices."](http://dx.doi.org/10.1093/bioinformatics/bty784) Bioinformatics  35 (8): 1427–29.
+* Yu, Channing, Aristotle M. Mannan, Griselda Metta Yvone, Kenneth N. Ross, Yan-Ling Zhang, Melissa A. Marton, Bradley R. Taylor, et al. 2016. ["High-Throughput Identification of Genotype-Specific Cancer Vulnerabilities in Mixtures of Barcoded Tumor Cell Lines."](http://dx.doi.org/10.1038/nbt.3460) Nature Biotechnology 34 (4): 419–23.
