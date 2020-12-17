@@ -11,6 +11,8 @@ The content in this repository is organized into a few sections, listed below.
 
 ## Data Access
 
+`notebooks/data_access`
+
 CMap has generated a dataset of over 3M gene expression profiles. These data are stored in Google BigQuery in ortder to faciliate access to arbitrary subsets of the dataset. The notebooks in this section illustrate how to query and access these data using an API, and the [CMap BQ Toolkit](https://cmapbq.readthedocs.io/en/latest/setup-guide.html), written in python. 
 
 ## Analyzing Gene Expression Data
